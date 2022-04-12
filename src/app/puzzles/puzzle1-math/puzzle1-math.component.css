@@ -1,14 +1,21 @@
-div.math {
+body {
     margin-left: 25%;
+    margin-top: 100px;
+    background-color: transparent;
 }
 
 div.statement {
     margin-top: 5px;
     margin-bottom: 10px;
+    margin-left: 15%;
     display: inline;
     float: left;
-    width: 200px;
+    width: 125px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin-left: 20%;
 }
 
 .answer {
@@ -25,8 +32,9 @@ div.statement {
 
 button.btn {
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 4%;
     margin-bottom: 2%;
+    align-content: center;
     background-color: rgb(104, 237, 28);
     border: solid 2px;
     border-color: black;
@@ -37,6 +45,19 @@ button.btn {
 }
 
 button.btn2 {
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-bottom: 2%;
+    background-color: rgb(104, 237, 28);
+    border: solid 2px;
+    border-color: black;
+    color: black;
+    padding: 3px;
+    border-radius: 7px;
+    width: 10%;
+}
+
+button.btn3 {
     margin-top: 10px;
     margin-left: 15%;
     margin-bottom: 2%;

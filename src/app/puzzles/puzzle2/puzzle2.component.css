@@ -1,0 +1,8 @@
+#main_nav {
+    display: none;
+}
+body {
+    width: 100vw;
+    min-height: 94.8vh;
+    background-color: black;
+}

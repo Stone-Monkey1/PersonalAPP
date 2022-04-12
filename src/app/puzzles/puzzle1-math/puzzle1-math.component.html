@@ -1,4 +1,5 @@
-<div class="math">
+<app-nav></app-nav>
+<body>
     <form>
         <div class='statement' id="statement1"></div>
         <input type="text" class="answer">
@@ -15,19 +16,23 @@
         <div class='statement' #statement4 id="statement4"></div>
         <input type="text" class="answer">
     </form>
-    <button routerLink="/puzzle1" type="button" class="btn btn-success" (click)= 'refreshPage()'>Submit</button>
+    <div class="container">
+        <button routerLink="/puzzle1" type="button" class="btn btn-success" (click)='refreshPage()'>Submit</button>
     <button type="button" class="btn btn-success" (click)="toggleHint1()" id="hint">Hint 1</button>
     <div id="hint1">
-        <p>Hint 1. Do you notice any similarities in the numbers once they are submitted? What could you do with them?</p>
-        <button type="button" class="btn btn-success" (click)="toggleHint2()">Hint 2</button>
+        <p>Hint 1. Do you notice any similarities in the numbers once they are submitted? What could you do with them?
+        </p>
+        <button type="button" class="btn2 btn-success" (click)="toggleHint2()">Hint 2</button>
     </div>
     <div id="hint2">
         <p>Hint 2. Where could you input these numbers to change your page location?</p>
-        <button type="button" class="btn2 btn-success" (click)="toggleHint3()">I WANT THE ANSWER NOW</button>
+        <button type="button" class="btn3 btn-success" (click)="toggleHint3()">I WANT THE ANSWER NOW</button>
     </div>
     <div id="hint3">
-        <p>Delete "puzzle1" from the URL and replace it with the answers you found from the question as if they were one large number.
+        <p>Delete "puzzle1" from the URL and replace it with the answers you found from the question as if they were one
+            large number.
             The URL should now read /93153173.
         </p>
     </div>
-</div>
+    </div>
+<body>

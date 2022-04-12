@@ -1,6 +1,9 @@
 :root {
     --clr: rgba(4, 51, 180, 0.829);
 }
+.container {
+    background-color: transparent
+}
 .navbar {
     width: 600px;
     height: 50px;
