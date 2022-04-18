@@ -1,8 +1,22 @@
-#main_nav {
-    display: none;
-}
 body {
     width: 100vw;
-    min-height: 94.8vh;
+    min-height: 100vh;
     background-color: black;
+    animation: background-color 0.5s;
+    animation-delay: 3s;
+}
+
+@keyframes background-color {
+    99.9% {
+        background: lightblue;
+    }
+    100% {
+        background: black;
+    }
+}
+
+button{
+    size: small;
+    display: block;
+    position: absolute;
 }
