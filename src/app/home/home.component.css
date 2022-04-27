@@ -1,5 +1,6 @@
 .container {
   margin-top: 100px;
+  cursor: default;
 }
 h1 {
   font-family: Lucida Handwriting;

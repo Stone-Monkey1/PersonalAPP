@@ -1,22 +1,55 @@
 body {
+    
+    background-size: cover;
     width: 100vw;
     min-height: 100vh;
     background-color: black;
-    animation: background-color 0.5s;
-    animation-delay: 3s;
 }
 
-@keyframes background-color {
-    99.9% {
-        background: lightblue;
+div.instructions {
+    text-align: center;
+    color: aliceblue;
+    /* animation-name: disappear;
+    animation-duration: 0.5s;
+    animation-delay: 6s; */
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    cursor: default;
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
     }
+
     100% {
-        background: black;
+        opacity: 0;
     }
 }
 
-button{
+.btn-primary {
+    position: relative;
     size: small;
-    display: block;
-    position: absolute;
+    border: transparent;
+    opacity: 0;
+    animation-name: opacityOnAndOff;
+    animation-duration: 0.2s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    cursor: default;
+}
+
+@keyframes opacityOnAndOff {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }

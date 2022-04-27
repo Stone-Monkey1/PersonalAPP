@@ -11,7 +11,7 @@ div.statement {
     display: inline;
     float: left;
     width: 125px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -33,40 +33,36 @@ div.statement {
 button.btn {
     margin-top: 10px;
     margin-left: 4%;
-    margin-bottom: 2%;
-    align-content: center;
-    background-color: rgb(104, 237, 28);
-    border: solid 2px;
-    border-color: black;
-    color: black;
-    padding: 3px;
     border-radius: 7px;
-    width: 10%;
-}
-
-button.btn2 {
-    margin-top: 10px;
-    margin-left: 18%;
-    margin-bottom: 2%;
-    background-color: rgb(104, 237, 28);
-    border: solid 2px;
-    border-color: black;
-    color: black;
-    padding: 3px;
-    border-radius: 7px;
-    width: 10%;
-}
-
-button.btn3 {
-    margin-top: 10px;
-    margin-left: 15%;
-    margin-bottom: 2%;
-    background-color: rgb(104, 237, 28);
-    border: solid 2px;
-    border-color: black;
-    color: black;
-    padding: 3px;
-    border-radius: 7px;
-    width: 10%;
     width: auto;
+    max-width: 100%;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: inline;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    padding: 0 25px;
+    text-align: center;
+    box-shadow: 5px 10px;
+    transition: box-shadow .3s;
+}
+
+button.btn:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+p {
+    margin-top: 15px;
+    max-width: 500px;
+    border: solid 2px;
+    border-radius: 7px;
+    border-color: rgb(243, 128, 5);
+    padding: 3px;
+    background-color: white
 }

@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { Puzzle1MathComponent } from './puzzles/puzzle1-math/puzzle1-math.component';
 import { TextInputComponent } from './_forms/text-input/text-input.component';
 import { Puzzle2Component } from './puzzles/puzzle2/puzzle2.component';
+import { Puzzle3Component } from './puzzles/puzzle3/puzzle3.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Puzzle2Component } from './puzzles/puzzle2/puzzle2.component';
     AboutComponent,
     Puzzle1MathComponent,
     TextInputComponent,
-    Puzzle2Component
+    Puzzle2Component,
+    Puzzle3Component
   ],
   imports: [
     BrowserModule,
