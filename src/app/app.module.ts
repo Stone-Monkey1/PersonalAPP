@@ -13,6 +13,11 @@ import { Puzzle1MathComponent } from './puzzles/puzzle1-math/puzzle1-math.compon
 import { TextInputComponent } from './_forms/text-input/text-input.component';
 import { Puzzle2Component } from './puzzles/puzzle2/puzzle2.component';
 import { Puzzle3Component } from './puzzles/puzzle3/puzzle3.component';
+import { Puzzle4Component } from './puzzles/puzzle4/puzzle4.component';
+import { Puzzle5Component } from './puzzles/puzzle5/puzzle5.component';
+import { HangmanDisplayComponent } from './puzzles/puzzle4/hangman-display/hangman-display.component';
+import { HangmanKeyboardComponent } from './puzzles/puzzle4/hangman-keyboard/hangman-keyboard.component';
+import { HangmanQuestionComponent } from './puzzles/puzzle4/hangman-question/hangman-question.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,13 @@ import { Puzzle3Component } from './puzzles/puzzle3/puzzle3.component';
     Puzzle1MathComponent,
     TextInputComponent,
     Puzzle2Component,
-    Puzzle3Component
+    Puzzle3Component,
+    Puzzle4Component,
+    Puzzle5Component,
+    HangmanDisplayComponent,
+    HangmanKeyboardComponent,
+    HangmanQuestionComponent,
+    Puzzle5Component
   ],
   imports: [
     BrowserModule,
