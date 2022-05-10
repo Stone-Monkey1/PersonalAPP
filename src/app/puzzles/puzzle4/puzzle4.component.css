@@ -6,3 +6,18 @@
     flex-direction: column;
     align-items: center;
 }
+
+.restart {
+    
+    display: inline-block;
+}
+.btn1 {
+    background-color: darkcyan;
+    border-radius: 4px;
+}
+
+.btn2 {
+    margin-top: 15px;
+    background-color: green;
+    border-radius: 4px;
+}

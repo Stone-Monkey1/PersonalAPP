@@ -6,7 +6,9 @@
         <app-hangman-keyboard (keyPressed)="guess($event)" [question]="question"></app-hangman-keyboard>
     </ng-container>
 </div>
-<ng-template #restartGameBtn>
-    <button class="btn btn-primary" (click)="reset()">Restart Game</button>
-    <button class="btn btn-primary" routerLink="/5">Move On</button>
-</ng-template>
+<div class="restart">
+    <ng-template #restartGameBtn>
+        <button class="btn1" (click)="reset()">Restart Game</button>
+        <button class="btn2" routerLink="/5">Move On</button>
+    </ng-template>
+</div>
