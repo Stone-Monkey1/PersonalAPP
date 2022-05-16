@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
       const elements = document.getElementsByClassName('wordPop');
 
       if (elements) {
-        for (let i = 0; i <= elements.length; i++) {
+        for (let i = 0; i < elements.length; i++) {
           elements[i].addEventListener('mouseover', () => {
             elements[i].classList.add('animated');
           });
