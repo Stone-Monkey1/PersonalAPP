@@ -9,9 +9,9 @@ body {
 div.instructions {
     text-align: center;
     color: aliceblue;
-    /* animation-name: disappear;
+    animation-name: disappear;
     animation-duration: 0.5s;
-    animation-delay: 6s; */
+    animation-delay: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     cursor: default;
@@ -27,7 +27,7 @@ div.instructions {
     }
 }
 
-.btn-primary {
+#click {
     position: relative;
     size: small;
     border: transparent;
@@ -38,6 +38,28 @@ div.instructions {
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     cursor: default;
+}
+
+.reset {
+    text-align: center;
+    opacity: 0;
+
+    animation-name: appear;
+    animation-duration: 0.5s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    cursor: default;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes opacityOnAndOff {

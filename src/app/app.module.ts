@@ -35,7 +35,7 @@ import { HangmanQuestionComponent } from './puzzles/puzzle4/hangman-question/han
     HangmanDisplayComponent,
     HangmanKeyboardComponent,
     HangmanQuestionComponent,
-    Puzzle5Component
+    Puzzle5Component,
   ],
   imports: [
     BrowserModule,

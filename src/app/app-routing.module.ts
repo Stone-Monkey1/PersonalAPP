@@ -16,7 +16,7 @@ const routes: Routes = [
   {path: 'puzzle1', component: Puzzle1MathComponent},
   {path: '93153173', component: Puzzle2Component},
   {path: '8463', component: Puzzle3Component},
-  {path: '4', component: Puzzle4Component},
+  {path: '25678', component: Puzzle4Component},
   {path: '5', component: Puzzle5Component},
   {path: '**', component: HomeComponent, pathMatch: 'full'},
 ];

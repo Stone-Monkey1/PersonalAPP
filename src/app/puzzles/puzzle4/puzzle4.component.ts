@@ -44,7 +44,6 @@ export class Puzzle4Component implements OnInit {
   pickNewQuestion() {
     const randomIndex = Math.floor(Math.random() * this.questions.length);
     this.question = this.questions[randomIndex];
-    console.log(this.question);
   }
 
   onGameFinished() {
