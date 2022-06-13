@@ -1,6 +1,6 @@
 body {
     margin-left: 25%;
-    margin-top: 100px;
+    padding-top: 100px;
     background-color: transparent;
 }
 
@@ -10,10 +10,13 @@ div.statement {
     margin-left: 15%;
     display: inline;
     float: left;
-    width: 125px;
+    width: 170px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+form {
+    display: flex;
+}
 .container {
     margin-left: 20%;
 }
